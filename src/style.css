@@ -1,0 +1,97 @@
+body {
+  background: #FFAFBD;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-family: 'Roboto Mono', monospace;
+}
+
+.container {
+  border: 7px solid black;
+  margin-top: 10px;
+  width: 410px;
+  height: 410px;
+  border-radius: 200px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 45px;
+  letter-spacing: 3px;
+}
+
+button {
+  text-transform: uppercase;
+  margin-left: 10px;
+  letter-spacing: 1px;
+}
+
+.counter {
+  text-align: center;
+}
+
+.radio-inline {
+  text-align: center;
+  margin-left: 43%;
+  text-transform: uppercase;
+}
+
+.colors {
+  width: 198px;
+  height: 198px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.topLeft {
+  border-radius: 400px 5px 5px 5px;
+  background-color: #309b1d;
+}
+
+.highlightGreen {
+  background-color: #36db2e;
+}
+
+.topRight {
+  border-radius: 5px 400px 5px 5px;
+  background-color: #cc3033;
+}
+
+.highlightRed {
+  background-color: #ff1919;
+}
+
+.bottomLeft {
+  border-radius: 5px 5px 5px 400px;
+  background-color: #e6e600;
+}
+
+.highlightYellow {
+  background-color: #ffff66;
+}
+
+.bottomRight {
+  border-radius: 5px 5px 400px 5px;
+  background-color: #000099;
+}
+
+.highlightBlue {
+  background-color: #1a1aff;
+}
+
+hr.style11 {
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+  margin-top: -10px;
+  width: 500px;
+}
+
+span {
+  display: none;
+}
+
+#count {
+  display: inline;
+}
